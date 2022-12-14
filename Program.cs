@@ -49,6 +49,11 @@ namespace CircularQueues_CSharp
                 FRONT = -1;
                 REAR = -1;
             }
+            else
+            {
+                if (FRONT == max - 1)
+                    FRONT = 0;
+            }
         }
     }
     internal class Program
