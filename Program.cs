@@ -59,7 +59,8 @@ namespace CircularQueues_CSharp
         }
         public void display()
         {
-
+            int FRONT_position = FRONT;
+            int REAR_position = REAR;
         }
     }
     internal class Program
