@@ -61,6 +61,12 @@ namespace CircularQueues_CSharp
         {
             int FRONT_position = FRONT;
             int REAR_position = REAR;
+            if (FRONT == -1)
+            {
+                Console.WriteLine("Queue is empty\n");
+                return;
+            }
+            Console.WriteLine("\nElement in the queue are............\n");
         }
     }
     internal class Program
