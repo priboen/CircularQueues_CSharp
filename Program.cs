@@ -67,6 +67,15 @@ namespace CircularQueues_CSharp
                 return;
             }
             Console.WriteLine("\nElement in the queue are............\n");
+            if (FRONT_position <= REAR_position)
+            {
+                while (FRONT_position <= REAR_position)
+                {
+                    Console.Write(queue_array[FRONT_position] + "  ");
+                    FRONT_position++;
+                }
+                Console.WriteLine();
+            }
         }
     }
     internal class Program
