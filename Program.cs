@@ -12,7 +12,8 @@ namespace CircularQueues_CSharp
         int[] queue_array = new int[5];
         public Queues()
         {
-
+            FRONT = -1;
+            REAR = -1;
         }
     }
     internal class Program
