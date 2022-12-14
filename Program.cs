@@ -22,6 +22,11 @@ namespace CircularQueues_CSharp
                 Console.WriteLine("\nQueue overflow\n");
                 return;
             }
+            if (FRONT == -1)
+            {
+                FRONT = 0;
+                REAR = 0;
+            }
         }
     }
     internal class Program
