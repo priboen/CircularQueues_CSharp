@@ -92,11 +92,9 @@ namespace CircularQueues_CSharp
                 Console.WriteLine();
             }
         }
-    }
-    internal class Program
-    {
         static void Main(string[] args)
         {
+
         }
     }
 }
