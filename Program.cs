@@ -8,7 +8,7 @@ namespace CircularQueues_CSharp
 {
     class Queues
     {
-
+        int FRONT, REAR, max = 5;
     }
     internal class Program
     {
