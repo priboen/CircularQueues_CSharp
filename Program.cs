@@ -34,6 +34,7 @@ namespace CircularQueues_CSharp
                 else
                     REAR = REAR + 1;
             }
+            queue_array[REAR] = element;
         }
     }
     internal class Program
